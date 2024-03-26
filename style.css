@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+@-webkit-keyframes vibrate-1 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    20% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+    }
+
+    60% {
+        -webkit-transform: translate(2px, 2px);
+        transform: translate(2px, 2px);
+    }
+
+    80% {
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+}
+
+@keyframes vibrate-1 {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    20% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
+    }
+
+    60% {
+        -webkit-transform: translate(2px, 2px);
+        transform: translate(2px, 2px);
+    }
+
+    80% {
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+.vibrate-1 {
+    -webkit-animation: vibrate-1 0.3s linear infinite both;
+    animation: vibrate-1 0.3s linear infinite both;
+}
+
+:root {
+    font-size: 62.5%;
+    color: #34355B;
+}
+
+
+body {
+    font-size: 1.6rem;
+    background: linear-gradient(260deg, #BB00FF 0%, #190361 100%);
+    height: 100vh;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.cookie:hover {
+    -webkit-animation: vibrate-1 0.3s linear infinite both;
+    animation: vibrate-1 0.3s linear infinite both;
+}
+
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 42.8rem;
+    text-align: center;
+    border-radius: 2%;
+    padding: 3rem;
+}
+
+.screen1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.screen2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+}
+
+.sorte {
+    display: flex;
+    justify-content: center;
+}
+
+.sorte p {
+    font-family: "Dancing Script", cursive;
+    font-size: 2.4rem;
+    text-align: center;
+    background: #E4EDF1;
+    max-width: 70%;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+.TryAgain {
+    border-radius: 3%;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    background: #FF9500;
+    padding: 1.6rem;
+}
+
+.hide {
+    display: none;
+}
